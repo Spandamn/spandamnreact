@@ -1,0 +1,31 @@
+<html>
+	<style>
+		.circle-container {
+			@include on-circle($item-count: 8, $circle-size: 20em, $item-size: 6em); 
+			margin: 5em auto 0;
+			border: solid 5px tomato;
+				img { 
+				display: block; 
+				max-width: 100%; 
+				border-radius: 50%;
+				filter: grayscale(100%);
+				border: solid 5px tomato;
+				transition: .15s;
+				
+				&:hover,
+				&:active {
+					filter: grayscale(0);
+				}
+			}
+		}
+	</style>
+	<body>
+		<ul class="circle-container">
+			<li><a href="https://www.linkedin.com/in/spandan-punwatkar-b602891a3/" target="_blank" title="LinkedIn"><img src="assets/lilogo.png" title="LinkedIn" alt="LinkedIn" height=51 width=60></a></li>
+			<li><a href="https://www.instagram.com/spandn" target="_blank" title="Instagram"><img src="assets/iglogo.png" alt="Instagram" height=60 width=60></a></li>
+			<li><a href="https://github.com/Spandamn" target="_blank" title="Github"><img src="assets/GitHub-Mark-64px.png" alt="Github" height=60 width=60></a></li>
+			<li><a href="assets/CV.pdf" target="_blank" title="My CV (PDF)"><img src="assets/doc.png" alt="CV" height=60 width=60></a></li>
+			<li><a href="mailto:spendamn@gmail.com" target="_blank" title="Email Address"><img src="assets/gmail.png" alt="Email" height=60 width=60></a></li>
+		</ul>
+	</body>
+</html>

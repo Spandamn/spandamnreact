@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Section from './components/Section'
+import Contact from './components/Contact'
+import ButtonTo from './components/ButtonTo'
+
+import {useState} from 'react'
 
 function App() {
+  const [section, setSection] = useState(<Header />);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {section}
+        <div class="navigate">
+        <ButtonTo id="headerBox" onClick={() => setSection((<Header />))}/>|<ButtonTo id="workBox" onClick={() => setSection((<Section n={2} index={1} indiv='infolite' inid='work'/>))}/>|<ButtonTo id="strengthBox"onClick={() => setSection(<Section n={3} index={2} indiv='info' inid='strength'/>)}/><ButtonTo id="hobbyBox" onClick={() => setSection(<Section n={4} index={3} indiv='info' inid='hobby'/>)}/>|<ButtonTo id="contactBox" onClick={() => setSection(<Contact />)}/>
+        </div>
     </div>
   );
 }
