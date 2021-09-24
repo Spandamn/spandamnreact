@@ -2,7 +2,7 @@ import Header from './components/Header'
 import Section from './components/Section'
 import Contact from './components/Contact'
 import ButtonTo from './components/ButtonTo'
-
+import React from 'react'
 import {useState} from 'react'
 
 function App() {
