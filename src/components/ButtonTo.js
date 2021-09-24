@@ -1,3 +1,5 @@
+import React from 'react';
+
 function ButtonTo (props) {
     const buttons = {
         headerBox: (<button class="btn btn-info" title="Main Page">Main Page

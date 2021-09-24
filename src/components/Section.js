@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Section(prop) {
 
 const sections = {workHTML: (<div>

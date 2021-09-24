@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Header() {
     return (<header class="sec1" data-overlay-dark="6" data-background="assets/back.jpg" id="section1" data-scroll-index="0" data-anchor="page1">
 				<h1>Spandan C. Punwatkar</h1>
