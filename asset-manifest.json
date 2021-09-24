@@ -1,23 +1,14 @@
 {
-  "files": {
-    "main.css": "/spandamnreact/static/css/main.99cc1b0b.chunk.css",
-    "main.js": "/spandamnreact/static/js/main.06319f2a.chunk.js",
-    "main.js.map": "/spandamnreact/static/js/main.06319f2a.chunk.js.map",
-    "runtime-main.js": "/spandamnreact/static/js/runtime-main.97f7d83a.js",
-    "runtime-main.js.map": "/spandamnreact/static/js/runtime-main.97f7d83a.js.map",
-    "static/js/2.6caa22ca.chunk.js": "/spandamnreact/static/js/2.6caa22ca.chunk.js",
-    "static/js/2.6caa22ca.chunk.js.map": "/spandamnreact/static/js/2.6caa22ca.chunk.js.map",
-    "static/js/3.e2a7aeeb.chunk.js": "/spandamnreact/static/js/3.e2a7aeeb.chunk.js",
-    "static/js/3.e2a7aeeb.chunk.js.map": "/spandamnreact/static/js/3.e2a7aeeb.chunk.js.map",
-    "index.html": "/spandamnreact/index.html",
-    "static/css/main.99cc1b0b.chunk.css.map": "/spandamnreact/static/css/main.99cc1b0b.chunk.css.map",
-    "static/js/2.6caa22ca.chunk.js.LICENSE.txt": "/spandamnreact/static/js/2.6caa22ca.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/spandamnreact/static/media/back7.05fa2d83.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.97f7d83a.js",
-    "static/js/2.6caa22ca.chunk.js",
-    "static/css/main.99cc1b0b.chunk.css",
-    "static/js/main.06319f2a.chunk.js"
-  ]
+  "main.css": "static/css/main.a0cb22d3.css",
+  "main.css.map": "static/css/main.a0cb22d3.css.map",
+  "main.js": "static/js/main.919ce77e.js",
+  "main.js.map": "static/js/main.919ce77e.js.map",
+  "static/js/0.d4d4d511.chunk.js": "static/js/0.d4d4d511.chunk.js",
+  "static/js/0.d4d4d511.chunk.js.map": "static/js/0.d4d4d511.chunk.js.map",
+  "static/media/back.jpg": "static/media/back.6956649a.jpg",
+  "static/media/back2.jpg": "static/media/back2.72e05793.jpg",
+  "static/media/back3.jpg": "static/media/back3.bc3e5dcc.jpg",
+  "static/media/back5.jpg": "static/media/back5.e5635e58.jpg",
+  "static/media/back6.jpg": "static/media/back6.86814cb8.jpg",
+  "static/media/back7.jpg": "static/media/back7.d560b5ee.jpg"
 }
